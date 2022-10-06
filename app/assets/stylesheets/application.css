@@ -16,23 +16,51 @@
 body{
   background-color: black;
   color: white;
-  overflow: hidden;
+}
+
+
+.mapa{
+  position: absolute;
+  right: 0;
+  height: 70%;
+  top: -3px;
+  filter: invert(1);
+}
+
+.mapa2{
+  position: absolute;
+  left: 0;
+  top: 40em;
+  height: 90%;
+
+  filter: invert(1);
 }
 .banner{
   text-align: center;
   color: white;
   background-color: black;
+  width: 75%;
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-shadow: 5px 5px 10px grey;
+
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.banner h1 {
+  font-size: 5em;
+}
+.banner h2 {
+  font-size: 50px;
 }
 
+.about{
+  margin-top: 100em;
+}
 
 .footer {
-  position:absolute;
   bottom: 0;
   color: darkorange;
   width: 100%;
@@ -62,8 +90,9 @@ ul li a {
   text-decoration: none;
   color: white;
   margin: 10px;
-
 }
+
+
 
 
 
