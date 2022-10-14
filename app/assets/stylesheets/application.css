@@ -46,7 +46,6 @@ body{
   justify-content: center;
   flex-direction: column;
   text-shadow: 5px 5px 10px grey;
-
 }
 
 .section1 h1 {
@@ -58,6 +57,11 @@ body{
   font-size: 50px;
 }
 
+.header{
+  padding-bottom: 5em;
+  padding-right: 10em;
+  z-index: 1;
+}
 .about{
   margin-top: 100em;
 }
