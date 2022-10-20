@@ -16,6 +16,15 @@
 
  @import "footer";
 
+ .country-flag{
+  width: 100px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  filter: grayscale(1);
+  display: none;
+}
+
  body{
    background-color: black;
    color: white;
