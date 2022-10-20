@@ -60,13 +60,17 @@
 
 .section1 h2 {
   font-size: 50px;
-  color: grey;
+  color: white;
+  border: 3px solid white;
+  padding: 10px;
+  width: 400px;
 }
 
 .header{
   padding-bottom: 5em;
   padding-right: 10em;
   z-index: 1;
+  text-align: center;
 }
 .about{
   margin-top: 100em;
@@ -79,14 +83,19 @@
   color: white;
   background-color: black;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(web-background-comp.jpg);
+  // background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(inverter.png);
+  // filter: invert(1);
   background-size: cover;
   width: 100%;
   height: 60em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  position: relative;
+  .header2 {
+    position: relative;
+    left: 350px;
+    top:200px;
+  }
 }
+
 
 
 
