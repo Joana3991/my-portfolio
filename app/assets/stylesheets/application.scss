@@ -90,16 +90,22 @@ body{
   }
   a {
     position: relative;
+    top: 0;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2em;
     text-decoration: none;
     color: white;
-    padding: 20px;
     border-radius: 10px;
-    border: 2px solid rgba(255,255,255,0.4);
-    border-right: 2px solid rgba(255,255,255,0.2);
-    border-bottom: 2px solid rgba(255,255,255,0.2);
+    border: 3px solid rgba(255,255,255,0.8);
+    border-right: 3px solid rgba(255,255,255,0.4);
+    border-bottom: 3px solid rgba(255,255,255,0.4);
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(4px);
+    overflow: hidden;
     // box-shadow: 0 5px 45px rgba(255, 255, 255, 0.2);
   }
   a:before {
@@ -111,11 +117,12 @@ body{
     height: 100%;
     background: rgba(255,255,255,0.5);
     transform: skewX(45deg) translate(150px);
-    transition: 0.8s;
+    transition: 0.6s;
   }
   a:hover:before {
     transform: skewX(45deg) translate(-150px);
   }
+  // obs: nao fiz efeitos de transicao para subir quando hover
 }
 
 .option2{
